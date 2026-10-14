@@ -40,7 +40,7 @@ The catalog is built **from the mentions outward**: it covers the items people a
 - **What's published:** aggregate statistics and short, attributed excerpts that link back to Reddit, on a personal, ad-free site.
 - **Not commercial:** nothing is sold or redistributed.
 
-## Repo layout
+## Planned Repo layout
 
 ```
 catalog/     hand-verified canonical items per niche (with source URLs)
@@ -51,7 +51,7 @@ src/         collection, extraction, matching, review, evaluation, site build
 runs/        per-run metrics and manifests (no raw comment text)
 ```
 
-## Running it
+## Planned Usage
 
 Requires Python 3.11+, Reddit API credentials (approved, script app) and an Anthropic API key.
 
